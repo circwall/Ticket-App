@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buy ticket</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body class="body">
+    <div class="ma">
+        <div class="container-fluid ">
+            <div class="ticket my-auto" >
+             <h2 class="text-center text-danger ">Purchase Tickets Here</h2><hr>
+             <form id="form" method="post">
+                 <input class="form-control "  name="username" id="name" type="text" placeholder="enter Name..."  >
+                 <small id="smallna"></small>
+                 <input class="form-control "  id="userNo" type="number"  name="phone" placeholder="phone number" >
+                 <small id="smallnum"></small>
+                 <input class="form-control "  type="email" name="email" id="email" placeholder="Email" >
+                 <small id="smallem"></small>
+                 <input class="form-control "  type="number" name="age" placeholder="Enter age" id="age" >
+                 <small id="smallage"></small>
+                 <textarea class="form-control" name="" id="adress" cols="30" rows="5" placeholder="Input adress"></textarea>
+                 <small id="small"></small>
+                 <input class="btn" type="submit" id="submit" value="Purchase">
+             </form>
+             
+            </div>
+         </div>
+     
+         <div class="container-fluid listg">
+             <h3>List of people who registered</h3>
+             <div id="lists-of">
+                 <div id="lists">
+                     
+                 </div>
+             </div>
+         </div>
+         <script src="ma.js"></script>
+    </div>
+</body>
+    
+</html>

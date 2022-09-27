@@ -1,0 +1,54 @@
+.body{
+    background-color: chocolate;
+}
+.ticket{
+    max-width: 400px;
+    margin:auto;
+    margin-top: 15rem;
+    padding: 25px; 
+    background-color: rgb(26, 1, 53);
+    border-radius: 3rem;
+}
+.form-control{
+    margin-top: 1rem;
+}
+.btn{
+    margin-top: 1rem;
+}
+#form #small{
+    color:red;
+    display: block;
+}
+
+.ma{
+    display: flex;
+}
+.ma .listg{
+    max-width: 400px;
+    margin:auto;
+    margin-top: 15rem;
+    padding: 25px; 
+    background-color: rgb(26, 1, 53);
+    border-radius: 3rem;
+    color: white;
+    overflow: scroll;
+    max-height: 75vh;
+}
+
+.ma .listg::-webkit-scrollbar {
+    width: 0em;
+    color: black;
+  }
+
+.ma .listg h3{
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-bottom: 4rem;
+    
+}
+
+.ma .listg #namen{
+    margin-top: 4rem;
+}
+
